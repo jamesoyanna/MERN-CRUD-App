@@ -13,7 +13,7 @@ class Home extends Component {
     showMyArticles: false,
   };
 
-  componentWillMount() {
+UNSAFE_componentWillMount() {
     if (
       this.props.location.pathname === "/article/myarticles" &&
       !this.state.showMyArticles
