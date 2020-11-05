@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { submitNewArticle } from "../../../store/actions/articlesActions";
-import ErrorMsg from "../../../components/ErrorMsg/ErrorMsg";
+import ErrorMsg from "../../components/ErrorMsg/ErrorMsg";
 import InputField from "../../../components/InputField/InputField";
 
 const FIELDS = [
